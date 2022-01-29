@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Controle de Gastos | Kenzie</title>
+</head>
+
+<body>
+    <!-- conteudo principal -->
+    <main>
+        <section class="infos">
+                <h1>Controle de Gastos Kenzie</h1>
+                <p class="pontos">...</p>
+
+                <div class="formsEntradaOr">
+                    <h2>Total Orçamento</h2>
+                    <input type="text">
+                    <button>Calcular</button>
+                </div>
+
+                <div class="formsEntradaDes">
+                    <h2>NOME DESPESA</h2>
+                    <input type="text" class="formEntradaDes_nome">
+
+                    <h2>VALOR DESPESA</h2>
+                    <input type="number" class="formEntradaDes_valor">
+
+                    <button>Adicionar Despesa</button>
+                </div>
+
+                <div class="despesas">
+                    <div class="containerDes_cabecalho">
+                        <h4>título despesa</h4>
+                        <h4>valor despesa</h4>
+                    </div>
+                    <ul class="containerDes_lista">
+
+                    </ul>
+                </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="resultadosOr">
+                    <h3>Orçamento</h3>
+                    <p>+ R$ 0</p>
+                </div>
+                <div class="resultadosDes">
+                    <h3>Despesas</h3>
+                    <p>- R$ 0</p>
+                </div>
+                <div class="resultadosSal">
+                    <h3>Saldo</h3>
+                    <p>R$ 0</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
